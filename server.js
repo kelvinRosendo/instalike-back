@@ -8,5 +8,3 @@ app.listen(3000, () => {
  app.get("/", (req, res) => {
     res.status(200).send("Texto enviado pela rota 200, bem vindo ao servidor!");
  });
-
-

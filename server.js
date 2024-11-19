@@ -5,4 +5,8 @@ app.listen(3000, () => {
     console.log("Servidor escutando...");
 });
 
- 
+ app.get("/", (req, res) => {
+    res.status(200).send("Texto enviado pela rota 200, bem vindo ao servidor!");
+ });
+
+
